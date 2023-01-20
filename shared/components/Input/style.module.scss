@@ -1,4 +1,5 @@
 .conteiner{
+    position: relative;
     width: 493px;
     display: flex;
     flex-direction: column;
@@ -11,13 +12,18 @@
 }
 
 .inputbox{
-    position: relative;
+    // border: 1px solid red;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
     width: 493px;
     height: 70px;
     border-radius: 8px;
     margin: 0;
     // background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
-    background-image: url('./input.svg');
+    // background-image: url('./input.svg');
 
     .input{
         box-sizing: border-box;
@@ -52,7 +58,7 @@
     }
 
     &.error{
-        background-image: url('./errorinput.svg');
+        // background-image: url('./errorinput.svg');
         // background: #FD4646;
 
         .input{
@@ -65,7 +71,7 @@
     }
 
     &.disabled{
-        background-image: url('./disabledinput.svg');
+        // background-image: url('./disabledinput.svg');
         // background: #636363;
 
         .input{

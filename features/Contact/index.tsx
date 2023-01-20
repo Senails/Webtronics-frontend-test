@@ -73,7 +73,7 @@ export function Contact(){
                         />}
                     ></Controller>
                 </div>  
-                <Button onClick={clickButton} size="large" label='Send'/>
+                <Button disabled={status==="loading"} onClick={clickButton} size="large" label='Send'/>
             </div>
         </form>
     </div>
