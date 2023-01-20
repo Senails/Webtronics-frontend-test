@@ -1,0 +1,16 @@
+.bgimage {
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #0C102D;
+  overflow: hidden;
+  background-image: url('../public/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.bgfon{
+  background-image: url('../public/backgroungFon\ .svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}

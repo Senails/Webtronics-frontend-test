@@ -1,0 +1,121 @@
+.conteiner{
+    // border: 1px solid red;
+
+    margin: 0 auto;
+    width: 1224px;
+    height: 808px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+        margin: 0;
+        padding: 0;
+
+        font-family: 'Clash Display',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 120%;
+        color: white;
+        text-align: center;
+    }
+}
+
+.content{
+    width: 1224px;
+    height: 674px;
+
+    justify-content: space-between;
+    display: flex;
+
+    p{
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: white;
+    }
+}
+
+.left{
+    box-sizing: border-box;
+    padding-top: 46px;
+    height: 100%;
+    width: 288px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .image{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+
+        width: 100%;
+        height: 434px;
+        background-image: url('./Mask\ group-2.jpg');
+    }
+}
+
+.right{
+    height: 100%;
+    width: 912px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    >div{
+        height: 434px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        >div{
+            &:nth-child(1){
+                height: 100%;
+                width: 600px;
+                border-radius: 16px;
+
+                background-image: url('./Mask\ group.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            &:nth-child(2){
+                height: 100%;
+                width: 288px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                >div{
+                    border-radius: 16px;
+                    width: 100%;
+                    height: 209px;
+
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+
+                    &:nth-child(1){
+                        background-image: url('./Mask3.jpg');
+                    }
+                    &:nth-child(2){
+                        background-image: url('./Mask\ group-1.jpg');
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.conteiner{
+    box-sizing: border-box;
+    // border: 1px solid red;
+
+    width: 703px;
+    min-height: 62px;
+    background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+    clip-path: polygon(0% 100%, 0% 31px, 31px 0, 100% 0%, 100% calc(100% - 31px),calc(100% - 31px) 100%);
+    border-radius: 8px;
+    padding: 1.4px;
+
+    .fon{
+        position: relative;
+        width: 100%;
+        min-height: 60px;
+        border-radius: 7px;
+        background-color: #181C38;
+        clip-path: polygon(0% 100%, 0% 31px, 31px 0, 100% 0%, 100% calc(100% - 31px),calc(100% - 31px) 100%);
+
+        &.owerflow{
+            height: 60px ;
+            overflow: hidden;
+        }
+    }
+}
+
+.title{
+    padding: 0 56px 0 24px;
+    margin: 0;
+    font-family: 'Clash Display', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+
+    color: white;
+}
+
+.text{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-left: 24px;
+    padding-right: 56px;
+    padding-bottom: 26px;
+    color: white;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    opacity: 1;
+    clip-path: polygon(0 0 , 100% 0, 100% 100% , 0 100%);
+
+    &.close{
+        height: 0 !important;
+        opacity: 0;
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+    &.transition{
+        transition: 0.5s;
+    }
+}
+
+.icon{
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+    width: 24px;
+    height: 24px;
+    transition: 0.5s;
+
+    background-image: url('./Property\ 1=close\ faq.svg');
+
+    &:not(.close){
+        top: 24px;
+        background-image: url('./Property\ 1=open.svg');
+    }
+    &:not(.transition){
+        background-image: url('./Property\ 1=close\ faq.svg');
+        transition: 0s;
+    }
+}

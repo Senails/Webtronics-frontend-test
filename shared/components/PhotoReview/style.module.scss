@@ -1,0 +1,67 @@
+.conteiner{
+    position: relative;
+
+    width: 392px;
+    height: 422px;
+    overflow: hidden;
+
+    &.transition{
+        transition: 0.8s;
+        .card{
+            transition: 0.8s;
+        }
+        .photo{
+            transition: 0.8s;
+        }
+    }
+
+    &.small{
+        width: 184px;
+        .card{
+            width: 184px;
+            left: calc(50% - 92px);
+            clip-path: polygon(0 0 , 100% 0 , 100% calc(100% - 35px),calc(100% - 35px) 100% , 0 100%);
+        }
+        .photo{
+            clip-path: polygon(0 0 , 100% 0 , 100% calc(100% - 35px),calc(100% - 35px) 100% , 0 100%);
+        }
+    }
+
+    &.hide{
+        width: 0px;
+        .card{
+            transform: scale(0);
+        }
+    }
+}
+
+.card{
+    position: absolute;
+    top: calc(50% - 211px);
+    left: calc(50% - 196px);
+
+    width: 392px;
+    height: 422px;
+    border-radius: 8px;
+
+    background: linear-gradient(-32.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+    clip-path: polygon(0 0 , 100% 0 , 100% calc(100% - 67px),calc(100% - 67px) 100% , 0 100%);
+
+    transform: scale(1);
+}
+
+.photo{
+    position: absolute;
+    top: 1.4px;
+    left: 1.4px;
+    right: 1.4px;
+    bottom: 1.4px;
+    border-radius: 7px;
+
+    background-color: #181C38;
+    clip-path: polygon(0 0 , 100% 0 , 100% calc(100% - 67px),calc(100% - 67px) 100% , 0 100%);
+
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

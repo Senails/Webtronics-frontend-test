@@ -1,0 +1,67 @@
+.conteiner{
+    // border: 1px solid red;
+    width: 1213px;
+    height: 1238px;
+
+    margin: 0 auto;
+
+    h2{
+        margin: 0;
+        padding: 0;
+
+        font-family: 'Clash Display',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 120%;
+        color: white;
+        text-align: center;
+
+        margin-bottom: 56px;
+    }
+}
+
+.cardBox{
+    width: 100%;
+    height: 1096px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSection{
+    height: 100%;
+    width: 491px;
+}
+
+.rightSection{
+    box-sizing: border-box;
+    padding-top: 124px;
+
+    height: 100%;
+    width: 491px;
+}
+
+.margingBox{
+    margin-bottom: 144px;
+    &:nth-last-child(1){
+        margin-bottom: 0;
+    }
+}
+
+.centerSection{
+    box-sizing: border-box;
+    padding-top: 112px;
+
+    height: 100%;
+    width: 174px;
+}
+
+.centerImage{
+    height: 892px;
+    width: 174px;
+
+    background-image: url('./stepscollomn.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

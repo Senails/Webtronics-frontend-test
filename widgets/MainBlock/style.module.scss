@@ -1,0 +1,78 @@
+.conteiner{
+    position: relative;
+    // border: 1px solid red;
+    margin: 0 auto;
+    width: 1197px;
+    height: 366px;
+
+    h4{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+
+        font-family: 'Clash Display',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        color: white;
+    }
+}
+
+.line1{
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 1191px;
+    height: 180px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        font-family: 'Clash Display',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 150px;
+        line-height: 120%;
+        color: white;
+    }
+
+    p{
+        font-family: 'Inter',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: white;
+
+        transform: translateY(17px);
+
+        width: 359px;
+    }
+}
+
+.line2{
+    position: absolute;
+    top: 156px;
+    left: 0;
+
+    width: 1094px;
+    height: 180px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        font-family: 'Clash Display',Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 150px;
+        line-height: 120%;
+        color: white;
+    }
+}

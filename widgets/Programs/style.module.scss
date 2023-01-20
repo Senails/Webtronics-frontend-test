@@ -1,0 +1,50 @@
+.conteiner{
+    // border: 1px solid red;
+    margin: 0 auto;
+
+    width: 800px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2{
+        width: 543px;
+
+        font-family: 'Clash Display', Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 120%;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+        margin-bottom: 16px;
+    }
+
+    p{
+        width: 432px;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: white;
+
+        margin: 0;
+        padding: 0;
+
+        margin-bottom: 54px;
+    }
+}
+
+.cards{
+    // border: 1px solid red;
+    width: 100%;
+    height: 230px;
+
+    display: flex;
+    justify-content: space-between;
+}

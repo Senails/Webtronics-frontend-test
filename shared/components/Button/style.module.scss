@@ -1,0 +1,31 @@
+.button{
+    user-select: none;
+    cursor: pointer;
+    width: 497px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0A1482;
+
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+    border-radius: 8px;
+
+    &:not(.disabled){
+        &:hover{
+            color: #3B48D0;
+        }
+        &:active{
+            color: #FFFFFF;
+        }
+    }
+    &.disabled{
+        opacity: 0.4;
+    }
+}
+
+.small{
+    width: 288px;    
+}
