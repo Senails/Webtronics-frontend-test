@@ -10,7 +10,7 @@ export default {
 } as ComponentMeta<typeof Gallery>;
 
 //
-const Template: ComponentStory<typeof Gallery> = (args) => <Gallery {...args} />;
+const Template: ComponentStory<typeof Gallery> = () => <Gallery  />;
 
 export const show = Template.bind({});
 show.args = {

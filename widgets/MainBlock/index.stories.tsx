@@ -10,7 +10,7 @@ export default {
 } as ComponentMeta<typeof MainBlock>;
 
 //
-const Template: ComponentStory<typeof MainBlock> = (args) => <MainBlock {...args} />;
+const Template: ComponentStory<typeof MainBlock> = () => <MainBlock />;
 
 export const show = Template.bind({});
 show.args = {

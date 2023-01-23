@@ -10,7 +10,7 @@ export default {
 } as ComponentMeta<typeof Revie>;
 
 //
-const Template: ComponentStory<typeof Revie> = (args) => <Revie {...args} />;
+const Template: ComponentStory<typeof Revie> = () => <Revie />;
 
 export const show = Template.bind({});
 show.args = {
